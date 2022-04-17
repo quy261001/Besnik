@@ -1,0 +1,55 @@
+section.header
+  .navigation 
+    .header-logo 
+      img(srcset="./img/Logo-header.png 2x")
+    .menu  
+      li.menu-item
+        a.menu-link(href="#") Home
+      li.menu-item
+        a.menu-link(href="#") Review  
+      li.menu-item
+        a.menu-link(href="#") About Us
+      li.menu-item
+        a.menu-link(href="#") Contact Us 
+    .auth 
+      a.button-login.auth-login(href="#") Sign Up
+      a.auth-cart(href="#") 
+       img(srcset="./img/Cart.png 2x")
+  .header-main
+      .header-content
+        span.slogan.header-slogan Hungry?
+        h1.text-content.header-title Wait a minute for delicious.
+        p.text-desc.header-desc Best cooks and best delivery guys all at your service. Hot tasty food will reach you in 20mins.
+        .header-input.input-form
+          input.input-location(type="email" placeholder="Enter your delivery location")
+          img.input-img(srcset="./img/Icon-1.png 2x")
+          .button-form 
+            span.input-text Discover
+            img.input-button(srcset="./img/next-input.png 2x")
+        .header-agree
+         .header-agree-content Already member of our communty? 
+         span Sign in    
+      .header-image 
+        img(srcset="./img/img-header.png 2x")      
+  .header-footer 
+    .header-food
+      .header-food-title Food near me
+        img(srcset="./img/Icon-fire.png 2x")
+      .header-food-directional
+        .header-food-icon <ion-icon name="chevron-back-outline"></ion-icon>
+        .header-food-icon <ion-icon name="chevron-forward-outline"></ion-icon>
+    .header-card
+      .header-card-grid 
+        +foodNearme("Pizza", "Starting", "$14.00" ,"./img/Image-pizza.png 2x")
+      .header-card-grid 
+        +foodNearme("Drinks", "Starting", "$2.00" ,"./img/Image-drinks.png 2x")
+      .header-card-grid 
+        +foodNearme("F. Chiken", "Starting", "$4.50" ,"./img/Image-chiken.png 2x")
+      .header-card-grid 
+        +foodNearme("French F.", "Starting", "$8.00" ,"./img/Image-french.png 2x")      
+        
+
+
+
+    
+

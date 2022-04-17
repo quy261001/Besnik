@@ -1,0 +1,49 @@
+.app {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-bottom: var(--section--spacing);
+  &-main {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 160px;
+  }
+  &-title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+    color: #101010;
+    padding-bottom: 32px;
+  }
+  &-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;  
+    letter-spacing: -0.01em;
+    color: #646464;
+    opacity: 0.88;
+    padding-bottom: 50px;
+  }
+  &-logo {
+    display:flex;
+    align-items: center;
+    gap: 22px;
+    &-left {
+      display:flex;
+      align-items: center;
+      gap: 20px;
+      border: 1.09091px solid #DBDBDB;
+      border-radius: 18.1818px;
+      padding: 16px 23px;
+    }
+    &-right {
+      display:flex;
+      align-items: center;
+      gap: 20px;
+      border: 1.09091px solid #DBDBDB;
+      border-radius: 18.1818px;
+      padding: 16px 23px;
+    }
+  }
+}

@@ -1,0 +1,106 @@
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.button-login {
+  padding: 13px 15px 12px 16px;
+  background: linear-gradient(180deg, #272727 0%, #171717 46.01%, #101010 100%);
+  border-radius: 12px;
+}
+.slogan {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Seaweed Script', cursive;
+  font-weight: normal;
+  font-size: 44px;
+  line-height:1.1;
+  color: $gray-primary;
+  margin-bottom: 8px;
+}
+.text-content {
+  font-weight: 700;
+  font-size: 62px;
+  line-height:1.16;
+  color: $title-color;
+}
+.text-desc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  color: $desc-color;
+}
+.button-form {
+  display: flex;
+  align-items: center;
+  padding:16px 27px 17px 23px ;
+  background-color: #00BE4C;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.input{
+  &-form{
+    display: flex;
+    align-items: center;
+    position: relative; 
+  } 
+  &-location {
+    padding: 24px 91px 23px 16px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-color: #00BE4C;
+  }
+  &-img {
+    position:absolute;
+    right: 42%;
+  }
+  &-button {
+    margin-left: 14px;
+    padding: 12px;
+    background-color: #fff;
+    border-radius:12px;
+  }
+  &-text{
+    color: #fff;
+  }
+}
+.global-button {
+  &-text{
+    color: #fff;
+  }
+  display: flex;
+  align-items: center;
+  background: linear-gradient(101.98deg, #46C266 41.25%, #2FB652 98.64%);
+  box-shadow: 0px 10px 20px -10px rgba(58, 186, 90, 0.16);
+  border-radius: 16px;
+  padding: 20px 30px;
+}
+.global-button-1 {
+  &-text{
+    color: #fff;
+  }
+  display: flex;
+  align-items: center;
+  background: linear-gradient(101.98deg, #FF6741 41.25%, #FF4415 98.64%);
+  box-shadow: 0px 10px 20px -10px rgba(232, 86, 49, 0.16);  
+  border-radius: 16px;
+  padding: 20px 30px;
+}
+.global-button-2 {
+  &-text{
+    color: #fff;
+  }
+  display: flex;
+  align-items: center;
+  background: linear-gradient(101.98deg, #FFBC2D 41.25%, #FEB618 98.64%);
+  box-shadow: 0px 10px 20px -10px rgba(232, 86, 49, 0.16);
+  border-radius: 16px;
+  padding: 20px 30px;
+}
+.global-address {
+  font-weight: 600;
+  font-size: 14px;
+  line-height:2.15;
+  letter-spacing: 0.2em;
+  color: #36BD59;
+}

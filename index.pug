@@ -1,0 +1,31 @@
+block mixins
+  include ./views/mixins
+html
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    link(rel='preconnect' href='https://fonts.googleapis.com')
+    link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Seaweed+Script&display=swap' rel='stylesheet')
+    link(rel='preconnect' href='https://fonts.googleapis.com')
+    link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap' rel='stylesheet')
+    script(type='module' src='https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js')
+    script(nomodule='' src='https: // unkg .com / ionicons @ 5.5.2 / dist / ionicons / ionicons.js ')
+    link(href="./css/app.css" rel="stylesheet")
+    title Besnik 
+  body 
+    .wrapper 
+      include ./views/header
+      main 
+        include ./views/service
+        include ./views/popular
+        include ./views/newar
+        include ./views/blog
+        include ./views/appp
+        include ./views/sub
+        include ./views/nation
+        include ./views/footer
+        include ./views/footer2
+

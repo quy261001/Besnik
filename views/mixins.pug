@@ -1,0 +1,37 @@
+mixin foodNearme(title, desc, price, image) 
+      .header-card-left 
+        .header-card-title= title 
+        .text-desc.header-card-desc= desc
+        .header-card-price= price  
+      .header-card-image 
+        img(srcset= image)
+
+mixin serviceCard(image, title, desc)
+  .service-wrapper
+    .service-card-image
+      img(srcset=image)
+    .service-card-title= title
+    .service-card-desc= desc
+mixin popularCard(image, title, desc, price)
+  .popular-wrapper
+   .popular-image 
+      img(srcset=image)
+   .popular-rate 
+    .popular-icon <ion-icon name="star"></ion-icon>
+    .popular-icon <ion-icon name="star"></ion-icon>
+    .popular-icon <ion-icon name="star"></ion-icon>
+    .popular-icon <ion-icon name="star"></ion-icon>
+    .popular-icon <ion-icon name="star"></ion-icon>
+   .popular-title= title  
+   .text-desc.popular-desc= desc
+   .popular-form 
+    .popular-price= price
+    .popular-share 
+      img(srcset= "./img/Favorite-icon.png 2x")
+      img(srcset= "./img/Share-icon.png 2x")
+
+  
+
+
+
+

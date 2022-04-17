@@ -1,0 +1,65 @@
+.newar {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-bottom: 106px;
+  &-header {
+    text-align: center;
+    margin: 0 285px;
+    padding-bottom: 80px;
+  }
+  &-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 95px;
+    &-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  &-point {
+    display:flex;
+    align-items: center;
+    gap: 0 78px;
+    &-title {
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 1.25;
+      padding-bottom: 10px;
+    }
+    &-desc {
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 1px;
+      letter-spacing: 0.005em;
+      color: #C0C0C0;
+    }
+  }
+  &-address {
+    padding-top: px;
+    &-title {
+      font-weight: 500;
+      font-size: 28px;
+      line-height: 1.4;
+      letter-spacing: -0.01em;
+      color: #C7C7C7;
+      padding-bottom: 33px;
+    }
+    &-item {
+      padding-top: 53px;
+    }
+  }
+  &-input {
+  display: flex;
+  position: relative;
+  border-bottom: 1.2px solid #F0F0F0;
+  padding-bottom: 19px;
+  max-width: 440px;
+   &-image {
+     position: absolute;
+     top: -35%;
+     right: 0;
+   }
+  }
+}
