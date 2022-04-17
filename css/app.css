@@ -105,6 +105,7 @@
   display: inline-block;
   color: #FF4D20;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .header-footer {
